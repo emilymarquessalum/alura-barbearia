@@ -6,6 +6,10 @@
 
 }
 
+
+
+
+
 body
 {
     background-color: #121316;
@@ -24,21 +28,6 @@ body
      
     z-index: -1;
 }
-
-
-/*
-
-
-#d8ba9e;
-
-#dfb084;
-
-
-#f3b57c;
-
-
-*/
-
 
 .section
 {
@@ -102,9 +91,15 @@ body
 {
     color: #ff823ad2;
 
-
 }
 
+
+#mission
+{
+     
+   font-size: 4vmin;
+   margin: 30px;
+}
 
 .inspire_quote
 {
@@ -116,12 +111,6 @@ body
     font-size: 6vmin;
 }
 
-#mission
-{
-     
-   font-size: 30px;
-   margin: 30px;
-}
 
 
 

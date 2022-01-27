@@ -1,5 +1,9 @@
 
 /*
+
+ -- this explanation below can also be found in my README, but in case you didnt see or
+ skipped that...-
+
  Weird stuff in my files... Em here to explain!
 
  The file nav.js along with footer.js make so that we add the footer and navbars to
