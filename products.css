@@ -25,7 +25,7 @@
      -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(78, 51, 0);
  
-    border:  2px solid #7c4d0b;
+    border:  2px solid var(--deactivated);
 
     /*border-top: 0px;
     border-bottom: 0px;
@@ -41,13 +41,13 @@
 
 .items li:hover
 {
-    border-color: rgb(255, 153, 0);
+    border-color: var(--activated   );
     
 }
 
 .items li:hover .product_option
 {
-    color:rgb(250, 126, 25);
+    color: var(--activated);
 }
 
 .items li:hover .pricing
@@ -70,7 +70,7 @@
 .pricing
 {
     font-size: 27px;
-    color:rgb(250, 126, 25);
+    color: var(--main);
     
     margin: 10px 0 0; 
     transition: 1s;
