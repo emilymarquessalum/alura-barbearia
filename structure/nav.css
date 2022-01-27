@@ -1,0 +1,117 @@
+    
+
+
+#app-nav
+{
+    width: 100%;
+ 
+    position:fixed;
+        top: 0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+
+    margin: 0;
+    padding: 0; 
+
+    z-index: 10;
+
+         
+    
+}
+ 
+
+.alura_logo
+{
+    display: inline-block;
+    
+    width: 5%;
+
+    margin-left: 20px;
+}
+
+
+.nav-box
+{
+    margin-left: 20px;
+    padding-top: 6px;
+    opacity: 0.7;
+    background-color: rgba(31, 24, 24,0.5 );
+    transition: 0.7s;
+}
+
+
+
+.nav-box:hover
+{
+    opacity: 0.9 ;
+background-color: rgba(31, 24, 24 );
+transition: 0.7s;
+}
+
+nav
+{
+    display: inline;
+
+    position: absolute;
+
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    right: auto;
+    /*left: 120px;
+    top: 35px;*/
+}
+
+nav li
+{ 
+    display: inline;
+    text-transform:uppercase;   
+ 
+ 
+    
+}
+
+nav li a
+{
+    text-decoration: none;
+    
+    font-weight:bolder;
+    color: #ca8c05;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(114, 75, 2);
+    
+    font-size:6vmin;
+ 
+    transition: 1s;
+    
+    margin: 0 0 0 105px;
+    
+}
+
+
+nav li a:hover
+{
+
+    color: #ffb81f;
+    font-size: 7vmin;
+     
+
+}
+
+
+
+ 
+      
+.scroll-down   
+{
+      visibility: hidden;
+      opacity: 0;
+  
+}
+  
+.scrolled
+{
+    
+  transition: 0.8s;
+}
+ 
