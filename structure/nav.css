@@ -32,8 +32,8 @@
 { 
     margin-left: 0;
     padding-top: 6px;
-    opacity: 0.7;
-    background-color: rgba(31, 24, 24,0.5 );
+  /*  opacity: 0.9;*/
+    background-color: rgba(31, 24, 24,0.6 );
     transition: 0.7s;
 }
 
@@ -44,15 +44,16 @@
 
 .nav-box:hover
 {
-    opacity: 1 ;
-background-color: rgba(31, 24, 24 );
+   /* opacity: 1 ;*/
+background-color: rgb(46, 30, 30);
 transition: 0.7s;
 }
 
 nav
 {
     display: inline;
-
+     
+    visibility:visible;
     position: absolute;
 
     text-align: center;
@@ -89,7 +90,7 @@ nav li a
 }
 
 
-nav li a:hover
+nav li:hover a
 {
 
     color:  var(--activated);
@@ -97,11 +98,7 @@ nav li a:hover
      
 
 }
-
-
-
  
-      
 .scroll-down   
 {
       visibility: hidden;
@@ -110,8 +107,7 @@ nav li a:hover
 }
   
 .scrolled
-{
-    
+{ 
   transition: 0.8s;
 }
  

@@ -58,45 +58,47 @@ let appNav = `
             
 `;
 
+/* tip: check if your variable name doesnt collide with the name of some other module. */
+let navbar = document.getElementById("app-nav");
 
-nav = document.getElementById("app-nav");
-
-nav.innerHTML = appNav;
-
-
-
-const body = document.body; 
-const scrollUp = "scroll-up";
-const scrollDown = "scroll-down";
-let lastScroll = 0;
-
-let scrollLimit = nav.getAttribute("show-up");
+navbar.innerHTML = appNav;
 
 
-let  inicial_pad = nav.getAttribute("init-pad");
+
+const body = document.body;  
+let scrollDown = "scroll-down"; 
+
+
+let scrollLimit = body.scrollHeight * navbar.getAttribute("show-up") / 100;
+
+console.log("scroll limit is " + scrollLimit);
+
+let  inicial_pad = navbar.getAttribute("init-pad");
 
 if(!inicial_pad)
 {
   inicial_pad = 0;
 }
 
-nav.insertAdjacentHTML("afterend",'<div style= "padding-bottom:' + inicial_pad +'%;"> </div>' )
+navbar.insertAdjacentHTML("afterend",'<div style= "padding-bottom:' + inicial_pad +'%;"> </div>' )
 
-nav.classList.add(scrollDown);
+navbar.classList.add(scrollDown);
+ 
 
-let firstShow = true;
+
 
 if(scrollLimit == 0)
 {
-  nav.classList.add('scrolled');
-  nav.classList.remove(scrollDown);
-  firstShow = false;
+  navbar.classList.add('scrolled');
+  navbar.classList.remove(scrollDown);
+ 
 }
-
 else
 {
 
+console.log("Gonna call up scroll");
 let finishedScroll = false;
+
   window.addEventListener("scroll", () => {
     const currentScroll = window.pageYOffset;
 
@@ -105,21 +107,20 @@ let finishedScroll = false;
       return;
     }
 
+    
     if (currentScroll < scrollLimit) {
-      nav.classList.add(scrollDown);
+      //;
       
+      console.log("Scroll limits..");
       return;
     }
       
-    if(firstShow)
-    {
-      nav.classList.add('scrolled');
-    }
+    console.log("finishing scroll");
 
-    nav.classList.remove(scrollDown); 
-    
-     
-    lastScroll = currentScroll;
+    navbar.classList.add('scrolled');
+  navbar.classList.remove(scrollDown);
+ 
+     finishedScroll =true; 
   });
   
   

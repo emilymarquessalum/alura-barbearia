@@ -12,7 +12,7 @@
     /* main colors of text and background */
     --main: #E47711;
 
-    --secundary: #121316;
+    --secundary: #1d1f29;
 
 
     /* markings for things such as titles and subtitles */
@@ -156,7 +156,7 @@ body
     display:inline-block;
     vertical-align: top;
 
-    padding-right: 15%;
+    padding-right: 5%;
     width:20%;
 
     font-size: 4vmin;
@@ -182,17 +182,19 @@ body
     
     margin-bottom: 4%;
     padding-left: 3%;
-
+ 
     padding-bottom: 3%;
     
 }
 
 .side_image
 {
-    margin-top: 80px;
-    width: 47%;
+    margin-top: 7%;
+    margin-left: 3%;
+    width: 40%;
     display: inline;
- 
+    
+
 }
 
 
