@@ -11,7 +11,7 @@
 {
     color:var(--activated);
 
-    margin-left: 42%;
+    margin-left: 25%;
 
     margin-top: 5%;
 
@@ -19,12 +19,37 @@
     padding-bottom: 3%;
 }
 
+.input-section
+{
+    width: 63%;
+   /* border: 1px solid wheat;*/ 
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+}
+
+
+/* remove ackground-color going white after google autofills with content */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active
+{
+     transition-delay: 1000s;
+}
+
 .contact-label
 {
     margin-left: auto;
 
+    text-align: center;
     display: block;
     
+    font-size: 4vmin;
     font-family: var(--font);
     margin-right: auto;
 }
@@ -34,12 +59,16 @@
 
     display: block;
     background-color: var(--darkish) ;
+    
     color: var(--white);
-    margin-right: 3%;
+    margin-right: auto;
     border: 1.5px solid var(--slightmark);
- transition: 0.2s;
+    transition: 0.2s;
+    
+    width: 40vmin;
     height: 3.5vmin;
 
+    margin-left: auto;
 }
 
 .contact-text:focus
@@ -64,10 +93,16 @@
     color: var(--activated);
 
     text-transform: uppercase ;
-    margin-left: 0%;
+
+    margin-left: auto;
+    margin-right: auto;
+
     margin-top: 3%;
+
     margin-bottom: 3%;
+
     border: 2px solid var(--main);
+
     border-radius: 10px;
 
     transition: 0.4s;

@@ -53,8 +53,13 @@ body
     padding-top: 0;
  
     filter: brightness(40%) blur(2px) contrast(90%); 
-     
+  
     z-index: -1;
+}
+
+
+#banner:hover
+{  
 }
 
 .section
@@ -139,9 +144,6 @@ body
 }
 
 
-
-
-
 .beneficios
 {
     padding-top: 10px;
@@ -208,7 +210,14 @@ body
  
     filter: brightness(59%);
 
+    transition: 1s;
      
     box-shadow:  0px 0px 12px 12px var(--mark);
 }
  
+
+.fade_background:hover
+{
+    
+    filter: brightness(100%);
+}
