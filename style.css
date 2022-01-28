@@ -14,6 +14,7 @@
 
     --secundary: #1d1f29;
 
+    --darkish: #36363a;
 
     /* markings for things such as titles and subtitles */
     --mark: #ff701dd2;
@@ -30,7 +31,11 @@
     --special: #fa6d2cd2;
 
     /* use the next one carefully will ya*/
-    --white: aliceblue;
+    --white: antiquewhite ;
+
+
+
+    --font: 'Courier New', Courier, monospace;
 }
 
 
@@ -57,7 +62,7 @@ body
     background-color: #121316;
     color: var(--main);
 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font);
 
     font-weight: bold;
    
