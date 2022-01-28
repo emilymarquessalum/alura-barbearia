@@ -1,4 +1,4 @@
-    
+
 
 
 #app-nav
@@ -14,8 +14,7 @@
     padding: 0; 
 
     z-index: 10;
-
-         
+ 
     
 }
  
@@ -27,23 +26,25 @@
     width: 5%;
 
     margin-left: 20px;
-}
-
+} 
 
 .nav-box
-{
-    margin-left: 20px;
+{ 
+    margin-left: 0;
     padding-top: 6px;
     opacity: 0.7;
     background-color: rgba(31, 24, 24,0.5 );
     transition: 0.7s;
 }
 
-
+.nav_space
+{
+    padding-bottom: 10%;
+}
 
 .nav-box:hover
 {
-    opacity: 0.9 ;
+    opacity: 1 ;
 background-color: rgba(31, 24, 24 );
 transition: 0.7s;
 }
@@ -57,10 +58,9 @@ nav
     text-align: center;
     top: 30%;
     left: 10%;
-    right: auto;
-    /*left: 120px;
-    top: 35px;*/
+    right: auto; 
 }
+
 
 nav li
 { 
@@ -76,7 +76,7 @@ nav li a
     text-decoration: none;
     
     font-weight:bolder;
-    color: #ca8c05;
+    color: var(--deactivated);
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgb(114, 75, 2);
     
@@ -92,7 +92,7 @@ nav li a
 nav li a:hover
 {
 
-    color: #ffb81f;
+    color:  var(--activated);
     font-size: 7vmin;
      
 

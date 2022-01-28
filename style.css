@@ -28,6 +28,9 @@
 
     /* distinct from rest of page */
     --special: #fa6d2cd2;
+
+    /* use the next one carefully will ya*/
+    --white: aliceblue;
 }
 
 
@@ -187,7 +190,18 @@ body
 .side_image
 {
     margin-top: 80px;
-    width: 50%;
+    width: 47%;
     display: inline;
-
+ 
 }
+
+
+.fade_background
+{
+ 
+    filter: brightness(59%);
+
+     
+    box-shadow:  0px 0px 12px 12px var(--mark);
+}
+ 

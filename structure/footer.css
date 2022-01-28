@@ -1,9 +1,7 @@
 
 
 footer
-{  
-    /*background-color: rgb(22, 15, 13);
-*/
+{   
 
 margin-top: 6%;
 margin-bottom: 0;
@@ -11,14 +9,16 @@ padding-top: 2%;
 align-items: center;
 
 text-align: center;
-background: url("/./res/bg.jpg");
+background: linear-gradient(to top, #24213055, #2d263155), url("/./res/bg.jpg")  ;
+
+filter: brightness(130%) contrast(96%) ;  
 background-attachment:fixed;
 }
  
 
 
 .copyright
-{ color: aliceblue;
+{ color: var(--white);
     
     padding-bottom: 4%;
 

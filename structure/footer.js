@@ -2,7 +2,7 @@
 
 
 appFooter = `
-<img id = 'footer_logo_white' src = "res/logo-branco.png">
+<img id = 'footer_logo_white' src = "res/logo.png">
 
             <p class = "copyright">
                 &copy; Copyright Barbearia Alura – 2019

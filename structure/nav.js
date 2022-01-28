@@ -53,7 +53,9 @@ let appNav = `
                       </li>
                 </ul>    
               </nav>
-            </div<
+            </div< 
+
+            
 `;
 
 
@@ -70,6 +72,15 @@ let lastScroll = 0;
 
 let scrollLimit = nav.getAttribute("show-up");
 
+
+let  inicial_pad = nav.getAttribute("init-pad");
+
+if(!inicial_pad)
+{
+  inicial_pad = 0;
+}
+
+nav.insertAdjacentHTML("afterend",'<div style= "padding-bottom:' + inicial_pad +'%;"> </div>' )
 
 nav.classList.add(scrollDown);
 
