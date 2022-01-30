@@ -5,54 +5,76 @@
 
     text-align: center;
 
+    font-size: 7vmin;
 }
 
 .contact-form
 {
     color:var(--activated);
 
-    margin-left: 25%;
 
     margin-top: 5%;
 
-
+    width: 100%;
     padding-bottom: 3%;
 }
 
 .input-section
 {
-    width: 63%;
+    width: 100%;
    /* border: 1px solid wheat;*/ 
 
-    align-items: center;
 
-    justify-content: center;
-
-
-
-}
-
-
-/* remove ackground-color going white after google autofills with content */
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active
-{
-     transition-delay: 1000s;
-}
+   margin-bottom: 5vh;
+  
+} 
 
 .contact-label
 {
     margin-left: auto;
+   margin-right: auto;
 
     text-align: center;
     display: block;
     
-    font-size: 4vmin;
+    font-size: 6.5vmin;
     font-family: var(--font);
+ 
+
+
+    margin-bottom: 1.8vmin;
+
+    margin-top: 1.8vmin;
+}
+
+ 
+
+.contact-input
+{
+    margin-left: auto;
     margin-right: auto;
 }
+
+
+ 
+
+
+fieldset
+{
+    border: 0; 
+    
+    width: 100%;
+
+    margin-bottom: 5vmin;
+}
+
+.set-title
+{
+    display: block;
+
+    margin-top: 1vh;
+}
+
 
 .contact-text
 {
@@ -60,57 +82,227 @@ input:-webkit-autofill:active
     display: block;
     background-color: var(--darkish) ;
     
+
+    width: 60vmin;
+    height: 6vmin;
+
     color: var(--white);
-    margin-right: auto;
+    font-weight: bolder; 
     border: 1.5px solid var(--slightmark);
     transition: 0.2s;
     
-    width: 40vmin;
-    height: 3.5vmin;
+    font-size: 2.8vmin;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: var(--special);
+ 
+}
 
-    margin-left: auto;
+.contact-text-box
+{
+    font-size: 3.6vmin;
+
+    max-width: 50vw;
+    max-height: 50vh;
+    
+
+}
+ 
+.radios-fieldset
+{
+    padding-left: 25%;
+
+    transition: 1s;
+    
+    accent-color: var(--darkish); 
+
+    font-size: 4vmin;
+
+  
+    
+}
+
+ 
+ 
+.radios-fieldset input
+{
+    width: 4vmin;
+    height: 4vmin;
+    
+}
+
+
+
+.contact-select
+{  
+    background: var(--secundary);
+    color: var(--activated);
+    
+    font-family: var(--font);
+
+    outline: none;
+
+    margin-left: 25vw;
+
+    width:20vw;
+    text-align: center;
+    font-size: 4vmin;
+    font-weight: bold;
+
+    margin-bottom: 4vh;
+}
+
+
+
+.contact-select option
+{
+    
+    background: var(--secundary);
+    color: var(--activated);
+    font-family: var(--font);
+
+}    
+
+
+/* aqui eu colocaria a estilização da seleção em que o mouse estivesse em :hover, mas não 
+parece ter como fazer isso? :( */
+
+
+.contact-check
+{
+    margin-left: 0vw;
+    width: 2.5vmin;
+    height: 2.5vmin;
+    
+    accent-color: var(--darkish);
+
+    transition: 1s;
+}
+
+
+.how-contact-label
+{
+    margin-top: 6vmin;
+}
+ 
+.news-label
+{
+    font-size: 3vmin;
+}
+
+/*  removendo aparência padrão do autofill   */
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px var(--darkish) inset;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--white) !important;
 }
 
 .contact-text:focus
 {
     
+    transform: scale(1.1);
    outline: 2px solid var(--mark);
 }
 
 
+::placeholder
+{
+    color: rgb(177, 177, 151);
+    opacity: 0.6;
+    -webkit-text-stroke-width: 0px;
+    text-align: center;
+}
+
 .contact-send
 {
-
+ 
     font-size: 8vmin;
     display: block;
+    width: 30vw;
 
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
     font-family: var(--font);
-
     font-weight: bold;
 
     background-color: var(--darkish);
-
     color: var(--activated);
 
     text-transform: uppercase ;
-
-    margin-left: auto;
-    margin-right: auto;
+ 
+    margin-left: 20vw;
 
     margin-top: 3%;
 
     margin-bottom: 3%;
 
-    border: 2px solid var(--main);
-
+    /*border: 2px solid var(--main);
+*/
+border: 0;
     border-radius: 10px;
 
-    transition: 0.4s;
+    transition: 0.8s;
+
+
+    cursor:pointer;
 }
 
 .contact-send:hover
 {
     
     color: var(--special);
+    background-color: var(--secundary);
 
+    transform: scale(1.5)  rotate(360deg);
+}
+
+
+table
+{
+
+    font-size: 7vmin;
+    padding-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+    margin-top: 5vh;
+}
+
+table tr, table td,table th
+{
+     border: 1.5px solid rgb(177, 96, 4); 
+    
+     padding:3px;
+
+     text-align: center;
+
+}
+
+table td
+{
+    
+     background-color: rgb(17, 13, 13);
+    color: var(--slightmark);
+}
+
+table thead
+{
+    background-color: var(--darkish);
+    color: var(--mark);
+}
+
+main { 
+    width: 70%; 
+    margin: 0 auto;
+
+    background-color: rgb(24, 24, 32) !important;
+
+    border: 1px solid var(--darkish);
+    border-radius: 100px;
+ 
 }

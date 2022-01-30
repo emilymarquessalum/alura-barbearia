@@ -60,6 +60,7 @@ body
 
 #banner:hover
 {  
+    
 }
 
 .section
@@ -88,13 +89,15 @@ body
 
 .name
 { 
+     
     font-size: 150px;
-    padding-top: 16%;
-    margin-top: 0;
+    padding-top: 10%;
+    margin-top: 5%;
     padding-left:230px;
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 2%;
     color: var(--mark); 
+    transform:  rotate(-1.5deg);
  
     font-family:"neon";
 }   
