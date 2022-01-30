@@ -6,6 +6,9 @@
     text-align: center;
 
     font-size: 7vmin;
+
+
+    padding-top: 5vmin;
 }
 
 .contact-form
@@ -38,7 +41,7 @@
     display: block;
     
     font-size: 6.5vmin;
-    font-family: var(--font);
+    font-family: var(--title_font);
  
 
 
@@ -71,7 +74,7 @@ fieldset
 .set-title
 {
     display: block;
-
+    font-family: var(--title_font);
     margin-top: 1vh;
 }
 
@@ -82,6 +85,7 @@ fieldset
     display: block;
     background-color: var(--darkish) ;
     
+    font-family: var(--title_font);
 
     width: 60vmin;
     height: 6vmin;
@@ -108,9 +112,10 @@ fieldset
 }
  
 .radios-fieldset
-{
-    padding-left: 25%;
+{ 
 
+    margin-left: 25%;
+    
     transition: 1s;
     
     accent-color: var(--darkish); 
@@ -137,7 +142,7 @@ fieldset
     background: var(--secundary);
     color: var(--activated);
     
-    font-family: var(--font);
+    font-family: var(--common_font);
 
     outline: none;
 
@@ -226,7 +231,7 @@ input:-webkit-autofill {
     padding-top: 1vh;
     padding-bottom: 1vh;
     
-    font-family: var(--font);
+    font-family: var(--normal_font);
     font-weight: bold;
 
     background-color: var(--darkish);
@@ -271,6 +276,8 @@ table
     border-collapse: collapse;
 
     margin-top: 5vh;
+
+    font-family: var(--common_font);
 }
 
 table tr, table td,table th

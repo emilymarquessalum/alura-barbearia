@@ -6,6 +6,9 @@
 
 }
 
+/*  website color definitions! tente utilizar sempre ele, para que o site tenha consistência estética. 
+   As vezes, uma borda de um botão ou coisa parecida.. não precisa ser totalmente padronizado. Mas no geral
+   é bom colocar por aqui.  */
 :root {
 
 
@@ -36,6 +39,12 @@
 
 
     --font: 'Courier New', Courier, monospace;
+
+    --title_font:  Georgia, 'Times New Roman', Times, serif;
+
+
+    --name_font :  "neon";
+    --common_font:   'Montserrat', sans-serif;
 }
 
 
@@ -47,7 +56,7 @@ body
 }
 
 
-#banner
+.banner
 {
     width: 100%;
     padding-top: 0;
@@ -57,18 +66,14 @@ body
     z-index: -1;
 }
 
-
-#banner:hover
-{  
-    
-}
-
+ 
+/* ps: eu dei nome pra essa classe antes de saber que existia a tag ---- */
 .section
 {
     background-color: #121316;
     color: var(--main);
 
-    font-family: var(--font);
+    font-family: var(--common_font);
 
     font-weight: bold;
    
@@ -81,11 +86,30 @@ body
     padding: 30px;
 }
 
-.centered_title
+
+.principal p
+{
+    margin: 0 0 1em;    
+}
+
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.main_title
 {
     text-align: center;
-    margin-top: 35px;
+    margin: 0 0 1em; 
+
+ 
+    clear:left;
 }
+
 
 .name
 { 
@@ -99,8 +123,9 @@ body
     color: var(--mark); 
     transform:  rotate(-1.5deg);
  
-    font-family:"neon";
+    font-family: var(--name_font);
 }   
+
 
 
 .sobre_title
@@ -110,16 +135,17 @@ body
 
 .subtitle
 {
-    font-size: 80px;
+    font-size: 10vmin;
 
-    text-transform: uppercase;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase; 
+
+    
+    font-family: var(--title_font);
 }
 
 .page_talk
 {
-    font-size:25px; 
-    margin: 20px;
+    font-size:25px;  
 }
 
 .name_reference
@@ -129,7 +155,7 @@ body
 }
 
 
-#mission
+.mission
 {
      
    font-size: 4vmin;
@@ -149,7 +175,9 @@ body
 
 .beneficios
 {
-    padding-top: 10px;
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    
     font-size: 22px; 
     background-color: #181515;
 }
@@ -157,7 +185,7 @@ body
 .beneficios_title
 {
      
-
+padding-bottom: 0vh;
 
 }
 
@@ -195,6 +223,9 @@ body
  
     padding-bottom: 3%;
     
+    transition: 3s;
+
+    
 }
 
 .side_image
@@ -223,4 +254,23 @@ body
 {
     
     filter: brightness(100%);
+}
+
+
+.utensilios
+{
+    width: 14vw;   
+    float: left;
+    margin-top: 0;
+    margin-bottom: 5vh;
+
+    margin-right: 4vw;
+
+    margin-left: 4vw;
+}
+
+
+
+.barbearia-intro
+{ 
 }
