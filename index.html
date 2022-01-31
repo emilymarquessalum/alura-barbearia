@@ -6,7 +6,7 @@
 
 <head>
     <title> Barbearia Alura </title>
-    
+    <meta name="viewport" content="width=device-width">
     <link rel = "stylesheet" href="reset.css">
 
     <link rel = "stylesheet" href="style.css">
@@ -33,7 +33,7 @@
         </div>
 
         <h1 class = "main_title name">
-            Barbearia Alura
+                <span> Barbearia</span> <span>Alura</span>
         </h1>
 
         
@@ -53,7 +53,7 @@
             Sobre a Barbearia Alura
         </h2>
         
-        <img src = 'res/utensilios.jpg' alt = 'utensilios de barbearia' class="side_image utensilios fade_background">
+        <img src = 'res/utensilios.jpg' alt = 'utensilios de barbearia' class = "side_image utensilios fade_background">
 
         <p class = "page_talk barbearia-intro">
             Localizada no coração da cidade a 
@@ -72,9 +72,11 @@
         <p class = "page_talk mission">
     
             
-            Nossa missão é:
+            <h3 class = "subtitle mission_title">
+                Nossa missão é:
+            </h3>
             
-            <strong>
+            <strong class = 'mission_text'>
     
                 <em class = "inspire_quote">
                     "Proporcionar auto-estima e 
@@ -82,13 +84,13 @@
                 </em>
     
             </strong> 
-    
+            
         </p>
     
         <p class = "page_talk">
             Oferecemos profissionais 
             experientes e antenados às 
-            mudanças no mundo da moda. 
+            mudanças no mundo da moda. <br>
             O atendimento possui padrão 
             de excelência e agilidade, 
             garantindo qualidade e satisfação 
@@ -97,35 +99,81 @@
         
     </main>
     
+
     <section class = "section beneficios">
+
         <h3 class = "main_title subtitle beneficios_title">
             Benefícios
         </h3>
-    
-        <ul class = 'lista_curta'>
-            <li>
-                atendimento aos clientes é o nosso maior benefício.
-            </li>
-    
-            <li>
-                espaço diferenciado.
-            </li>
-    
+        
+        <div class="beneficios_content">
             
-            <li>
-                  localização.
-            </li>
-          
-    
-            <li>
-                profissionais qualificados.
-            </li>
-    
-        </ul>
-        <img src = "res/beneficios.jpg" class = "side_image fade_background" alt = 'Cliente recebendo serviço no ambiente profissional da barbearia.'>
+            <ul class = 'lista_beneficios'>
 
+                        <li class = "item_lista">
+                            atendimento aos clientes é o nosso maior benefício
+                        </li>
+                
+                        <li class = "item_lista"0>
+                            espaço diferenciado
+                        </li>
+                
+                        
+                        <li class = "item_lista">
+                            localização
+                        </li>
+                    
+                
+                        <li class = "item_lista">
+                            profissionais qualificados
+                        </li>
+                
+                        <li class="item_lista">Pontualidade</li>
+                        <li class="item_lista">Limpeza</li>
+
+                        
+            </ul>
+            
+            <div class = "side_images">
+                <img src = "res/beneficios.jpg" class = "side_image fade_background" alt = 'Cliente recebendo serviço no ambiente profissional da barbearia.'>
+                <img src = "res/barbeando.png" class = "side_image fade_background" alt = 'Outro cliente recebendo serviço no ambiente da barbearia.'>
+    
+            </div>
+          
+
+            
+        </div>
+
+        
+        <h3 class = 'subtitle main_title full_title'> Veja a qualidade de nosso serviço! </h3>
+
+        <div class = "frame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" 
+            
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            
+        </div>
 
     </section>
+
+ 
+
+
+    <section class = "mapa_section section">
+
+        <h3 class = 'subtitle main_title'> onde nos achar? </h3>
+        <p class = 'page_talk below_title'> Nosso estabelecimento está localizado no coração da cidade! </p>
+
+        <div class = "mapa frame">
+<iframe id = "location" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58513.83498342577!2d-46.62718309587909!3d-23.564324153227208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59541c6c79c3%3A0x36b90a85f0f8cb33!2sGrupo%20Alura!5e0!3m2!1spt-BR!2sbr!4v1643551206675!5m2!1spt-BR!2sbr" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+    </section>
+
 
 
     <footer>

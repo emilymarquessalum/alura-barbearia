@@ -23,9 +23,9 @@
 {
     display: inline-block;
     
-    width: 5%;
+    width: 5vw;
 
-    margin-left: 5vmin;
+    margin-left: 2vw;
 } 
 
 .nav-box
@@ -45,7 +45,7 @@
 .nav-box:hover
 {
    /* opacity: 1 ;*/
-background-color: rgb(70, 41, 41);
+background-color: rgb(41, 33, 33);
 transition: 0.7s;
 }
 
@@ -58,7 +58,7 @@ nav
 
     text-align: center;
     top: 5vmin;
-    left: 10vmin;
+    left: 10vw;
     right: auto; 
 }
 
@@ -81,11 +81,11 @@ nav li a
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgb(114, 75, 2);
     
-    font-size:8vmin;
+    font-size:4vw;
     
     transition: 1s;
     
-    margin: 0px 0vmin 0px 15vmin;
+    margin: 0px 0vmin 0px 5vw;
     
 }
 
@@ -93,8 +93,9 @@ nav li a
 nav li:hover a
 {
 
-    color:  var(--activated);
-    font-size: 10vmin;
+    color:  var(--activated); 
+
+    font-size:5vw;
      
 
 }
