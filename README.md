@@ -1,11 +1,11 @@
 # Alura-Barbearia
 
 
-Site do Curso da Alura
+Site Curso da Alura - HTML 
 
 ## Relacionados
 
- [Link Notion Para conteúdo estudado](https://bristle-place-65a.notion.site/Botic-rio-HTML-CSS-05165d9b1ea947a0a574d21e67a4f673)
+ [Link Docs Para conteúdo estudado](https://docs.google.com/document/d/15aEcVLfdDfoKa_wCJQsRasfXziqRMN9UHO1MjB-O3ho/edit?usp=sharing)
 
 
 ## Estado
