@@ -242,7 +242,7 @@ input:-webkit-autofill {
 
     text-transform: uppercase ;
  
-    margin-left: 28vw;
+    margin-left: 25vw;
 
     margin-top: 3%;
 
@@ -307,12 +307,12 @@ table thead
 }
 
 main { 
-    width: 70%; 
+    width: 80vw  !important; 
     margin: 0 auto;
 
     background-color: rgb(24, 24, 32) !important;
 
     border: 1px solid var(--darkish);
-    border-radius: 100px;
+    border-radius: 4em;
  
 }

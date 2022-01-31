@@ -80,7 +80,7 @@ body
  
     filter: brightness(40%) blur(2px) contrast(90%); 
   
-    z-index: -1;
+    z-index: -1; 
 }
 
  
@@ -163,6 +163,8 @@ body
     margin-top: 0;
 
     margin-bottom: 5vh;
+
+
 }
 
 
@@ -184,7 +186,7 @@ body
     transform:  rotate(-1.5deg);
  
     font-family: var(--name_font);
-
+    text-shadow: 1px 1px 0.005em var(--rare-yellow); 
 
 
     user-select:none;
@@ -215,7 +217,7 @@ body
 
 .subtitle
 {
-    font-size: 10vmin;
+    font-size: 7vmin;
 
     text-transform: uppercase; 
 
@@ -225,7 +227,7 @@ body
 
 .page_talk
 {
-    font-size:3vw;  
+    font-size:3.6vmin;  
 }
 
 
@@ -298,6 +300,10 @@ margin-bottom: 0;
 
 }
 
+.beneficios_image
+{
+
+}
 
 
 .lista_beneficios
@@ -328,6 +334,8 @@ margin-bottom: 0;
     
     border-top: #ff5e0077 1px solid;
 
+
+    
     background-color: var(--secundary);
 
     padding-top:4.5%;
@@ -398,19 +406,18 @@ margin-bottom: 0;
 
 .fade_background
 {
- 
-    filter: brightness(59%);
-
+  
+    opacity: 0.3;
     transition: 1s;
      
-    box-shadow:  0px 0px 0.51em 0.51em var(--mark);
+    box-shadow:  0px 0px 0.51em 0.51em var(--mark) ;
 }
  
 
 .fade_background:hover
 {
     
-    filter: brightness(100%);
+    opacity: 1; 
 }
 
 
@@ -429,7 +436,7 @@ margin-bottom: 0;
     margin-right: auto;
     overflow:hidden;
 
-    padding-bottom:40.25%;
+    padding-bottom:70.25vh;
 
     position:relative;
 
@@ -477,13 +484,32 @@ margin-bottom: 0;
     margin-right: 4vw;
 
     margin-left: 4vw;
+ 
 }
 
 
 .full_title
 {
-    font-size: 7vmin;
+    font-size: 4vmin;
  
 }
 
 
+
+@media ( max-width: 1000px)
+{
+
+
+    .frame
+    {
+        width: 80vw;
+        
+    padding-bottom:40.25vh;
+    }
+
+    .lista_beneficios
+    {
+        
+    }
+
+}
