@@ -3,22 +3,23 @@
 footer
 {   
 
-margin-top: 6%;
-margin-bottom: 0;
-padding-top: 2%;
-align-items: center;
+    margin-top: 6%;
+    margin-bottom: 0;
+    padding-top: 2%;
+    align-items: center;
 
-text-align: center;
-background: linear-gradient(to top, #24213055, #2d263155), url("/./res/bg.jpg")  ;
+    text-align: center;
+    background: linear-gradient(to top, #24213055, #2d263155), url("/./res/bg.jpg")  ;
 
-filter: brightness(130%) contrast(96%) ;  
-background-attachment:fixed;
+    filter: brightness(130%) contrast(96%) ;  
+    background-attachment:fixed;
 }
  
 
 
 .copyright
-{ color: var(--white);
+{ 
+    color: var(--white);
     
     padding-bottom: 4%;
 

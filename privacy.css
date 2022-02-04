@@ -1,0 +1,48 @@
+
+
+
+section
+{ 
+}
+
+
+.main_title
+{
+    font-size: 4vmin;
+
+    color: var(--special);
+}
+
+
+.data-list
+{
+    margin-top: 4vh;
+}
+
+.data-list li
+{
+    margin: 1vh;
+ 
+}
+
+.optional
+{
+ color: var(--slightmark);
+}
+
+ 
+
+.obrigatory
+{
+
+    color: var(--activated);
+}
+
+
+ 
+
+.additional-info
+{
+    margin-top: 3vh;
+    color: var(--special);
+}
