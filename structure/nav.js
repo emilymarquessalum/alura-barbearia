@@ -33,7 +33,7 @@ let appNav = `
             
             <div class = 'nav-box'>
               <h1>
-                  <img src = "../res/logo-branco.png" class = "alura_logo" alt = "Logo Barbearia Alura">
+                  <img src = "res/logo-branco.png" class = "alura_logo" alt = "Logo Barbearia Alura">
               </h1>
 
               

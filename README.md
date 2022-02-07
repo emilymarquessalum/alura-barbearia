@@ -24,8 +24,7 @@ MVP, Ainda Em Desenvolvimento (Fase De Conclusão!).
 
 
 ## Folder Structure
-A estrutura dos arquivos desse projeto é bem simples. As pastas principais são:
-- pages: arquivos .html
+A estrutura dos arquivos desse projeto é bem simples. As pastas principais são: 
 - styles: arquivos .css
 - behaviour: arquivos .js
 - res: recursos (imagens e afins) 

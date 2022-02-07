@@ -55,6 +55,7 @@
 
     --rare-yellow: rgb(192, 189, 0);
 
+    --shiny-yellow: rgb(252, 248, 48);
 
 
     /* fonts  */
@@ -66,9 +67,15 @@
 
 a
 {
+    transition: 1s;
     color: var(--rare-yellow);
     text-decoration: none;
     
+}
+
+a:hover
+{
+    color: var(--shiny-yellow);
 }
 
 .big-link
