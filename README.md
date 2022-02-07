@@ -10,7 +10,7 @@ Site Curso da Alura - HTML
 -->
 <img src= "res/front.png" alt = "Front Page" width="49%"> <img src= "res/contact.png" alt = "Contatos" width="49%"> 
 
-<img src= "res/politics.png" alt = "Política de Privacidade" width="49%"> <img src= "res/product.png" alt = "Produtos" width="49%">
+<img src= "res/politics.png" alt = "Política de Privacidade" width="49%"> <img src= "res/produtos.png" alt = "Produtos" width="49%">
  
 
 
