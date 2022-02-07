@@ -14,6 +14,8 @@ Site Curso da Alura - HTML
  
 
 
+[Check it here!](https://emilymarquessalum.github.io/alura-barbearia/)
+
 ## Relacionados
 
  [Link Docs Para Conteúdo](https://docs.google.com/document/d/15aEcVLfdDfoKa_wCJQsRasfXziqRMN9UHO1MjB-O3ho/edit?usp=sharing)
