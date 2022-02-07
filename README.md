@@ -20,8 +20,11 @@ Site Curso da Alura - HTML
 
 
 ## Estado
-MVP, Ainda Em Desenvolvimento (Fase De Conclusão!).
+-- Terminado --
 
+## Externals
+
+- [clipboard.js](https://clipboardjs.com/)
 
 ## Folder Structure
 A estrutura dos arquivos desse projeto é bem simples. As pastas principais são: 
