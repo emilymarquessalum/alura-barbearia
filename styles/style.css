@@ -90,13 +90,37 @@ a:hover
 body
 {
     background: var(--background)  ;
-    
+    overflow-x: hidden;
+    scrollbar-color: rebeccapurple green; 
+}
+ 
+html
+
+{
+
 }
 
-
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    
+    background:  var(--dark-gradient) ;  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  var(--special) ; 
+    border-radius: 10px;
+  }
+  
+ 
 .banner
 {
-    width: 100%;
+    width: 100vw;
     padding-top: 0;
  
     filter: brightness(40%) blur(2px) contrast(90%); 
@@ -208,7 +232,7 @@ body
     
     
     padding-top: 10vh;
-    padding-left:13vw;
+    padding-left:2rem;
     padding-bottom: 0;
 
     
