@@ -11,6 +11,14 @@ let politics = document.getElementById("politica");
 
 
 
+new ClipboardJS('.copy_button', {
+    text: function(_) {
+        console.log("hi");
+        return copyPolitics();
+    }
+});
+
+
 function copyPolitics()
 {
 
@@ -18,8 +26,10 @@ function copyPolitics()
     let politicContent = readPolitics();
     
 
-    console.log(`politics: ${politicContent}`);
-
+ //   console.log(`politics: ${politicContent}`);
+ 
+    
+    return politicContent;
 }
 
 
