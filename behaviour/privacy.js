@@ -9,25 +9,48 @@
 
 let politics = document.getElementById("politica");
 
+
+
 function copyPolitics()
 {
 
 
-    console.log("hey yo");
+    let politicContent = readPolitics();
+    
+
+    console.log(`politics: ${politicContent}`);
+
+}
+
+
+
+function readPolitics()
+{
+
+    let readContent = "";
 
     for(child of politics.children)
     {
+  
+        readContent += readElementFromPolitics(child);
 
-         
-        
-        for(element of child.children)
-        {
+    }
+
+    return readContent;
+}
+
+
+function readElementFromPolitics(element)
+{
+    let elementContent = "";
+    for(element of child.children)
+    {
  
             if(element.tagName == "UL")
             {
                 for(el of element.querySelectorAll("li"))
                 {
-                    console.log(el.innerHTML);
+                    elementContent += el.innerHTML;
                 }
                 continue;
             }
@@ -45,9 +68,8 @@ function copyPolitics()
             }
             
 
-            console.log(elementCopy.innerHTML);
-        }
-
+            elementContent += elementCopy.innerHTML;
     }
 
+    return elementContent;
 }

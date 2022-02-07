@@ -2,11 +2,7 @@
 
 .contact_us
 {
-
-    text-align: center;
-
-    margin-left: auto;
-    margin-right: auto;
+ 
 
     font-size: 7vmin;
 
@@ -20,8 +16,7 @@
 
 
     margin-top: 5%;
-
-    width: 100%;
+ 
     padding-bottom: 3%;
 }
 
@@ -273,12 +268,12 @@ table
 {
 
     font-size: 7vmin;
-    padding-bottom: 10vh;
+    padding-bottom: 10vh; 
+    margin-top: 5vh;
+
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-
-    margin-top: 5vh;
 
     font-family: var(--common_font);
 }
@@ -286,7 +281,7 @@ table
 table tr, table td,table th
 {
      border: 1.5px solid rgb(77, 53, 27); 
-    
+     
      padding:3px;
 
      text-align: center;
@@ -306,13 +301,18 @@ table thead
     color: var(--mark);
 }
 
-main { 
-    width: 80vw  !important; 
-    margin: 0 auto;
+main {   
 
     background-color: rgb(24, 24, 32) !important;
 
     border: 1px solid var(--darkish);
     border-radius: 4em;
+    margin: 0 auto;
+    width: 80vw  !important; 
+ 
+}
+
+.section
+{
  
 }

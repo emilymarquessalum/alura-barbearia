@@ -1,5 +1,14 @@
  
 
+
+.servicos
+{
+    font-size: 3rem;
+
+    margin-bottom: 0 !important; 
+}   
+
+
 .items
 { 
 }
@@ -13,6 +22,8 @@
 
     vertical-align: top;
     margin: 20vh auto 1.5% 1.5%;
+
+    margin-top: 0;
     background-color:unset;
 
     text-align: center;
