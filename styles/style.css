@@ -12,6 +12,7 @@
 :root {
 
     scroll-behavior: smooth;
+    
     /* main colors of text and background */
     --main: #E47711;
 
@@ -19,42 +20,26 @@
 
     --background: linear-gradient(#232324, #484849);
 
-
     --dark: #121316;
-
     --darkish: #36363a;
-
     --dark-gradient: linear-gradient(90deg, var(--dark),var(--secundary), var(--secundary),var(--dark)  );
-    
 
 
     /* markings for things such as titles and subtitles */
     --mark: #ff701dd2;
-
     --slightmark: #ff823ad2;
-
-
 
     /* active unactive for user interaction*/
     --activated: rgb(255, 153, 0);
-
     --deactivated: #7c4d0b;
-
-
 
     /* distinct from rest of page */
     --special: #fa6d2cd2;
-
     --loudspecial: #ff5506d2;
-
-
-
 
     /* use the next one carefully will ya*/
     --white: antiquewhite ;
-
     --rare-yellow: rgb(192, 189, 0);
-
     --shiny-yellow: rgb(252, 248, 48);
 
 
